@@ -3,11 +3,86 @@
 <head>
  
   <title>Grid Practice</title>
+  <style>
+    .p{
+      text-family: Arial;
+      }
+      .person-1 {
+        display: grid;
+        grid-template-columns: 300px 300px 300px; /* Fixed column width */
+        gap: 30px; /* Space between columns */
+      }
+      
+    .profile-card{
+       background-color: white;
+      border: 1px solid gray;
+      padding: 10px;
+    }
+    .img-beast{
+      width: 100%;
+    }
+    .name{
+     font-size: 20px;
+      font-weight: bold;
+    }
+    .img-friends{
+      width: 50px;
+      border-radius: 50px;
+      vertical-align: middle;
+    }
+    .mutual-friends{
+      display: inline-block;
+      vertical-align: middle;
+      }
+    .utt{
+      margin-top: 10px;
+     margin-left: 30px;
+     margin-right: 30px;
+      padding-left: 30px;
+       padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: rgb( 0, 110, 180);
+      border-radius: 50px;
+    }
+  </style>
 </head>
 <body>
-  <div>
-    <div class="thumbnail-row">
-      <img  class="thumbnail"src="thumbnails/thumbnail-1.webp">
   
+  
+    
+      <div class=" person-1">
+    <div class="grid-container">
+    <!-- Profile 1 -->
+    <div class="profile-card">
+      <img class="img-beast" src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-6.jpeg" alt="Profile Picture">
+      <p class="name">Oliver</p>
+      <img class="img-friends" src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-1.jpeg" alt="Friend Picture">
+      <p class="mutual-friends">2 Mutual Friends</p>
+      <button class="utt">Add Friend</button>
+    </div>
+  </div>
+  <div class=" person-1">
+    <div class="grid-container">
+    <!-- Profile 1 -->
+    <div class="profile-card">
+      <img class="img-beast" src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-6.jpeg" alt="Profile Picture">
+      <p class="name">Oliver</p>
+      <img class="img-friends" src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-1.jpeg" alt="Friend Picture">
+      <p class="mutual-friends">2 Mutual Friends</p>
+      <button class="utt">Add Friend</button>
+    </div>
+  </div>
+  <div class=" person-1">
+    <div class="grid-container">
+    <!-- Profile 1 -->
+    <div class="profile-card">
+      <img class="img-beast" src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-6.jpeg" alt="Profile Picture">
+      <p class="name">Oliver</p>
+      <img class="img-friends" src="https://supersimple.dev/exercises/youtube/channel-profile-pics/channel-1.jpeg" alt="Friend Picture">
+      <p class="mutual-friends">2 Mutual Friends</p>
+      <button class="utt">Add Friend</button>
+    </div>
+  </div>
 </body>
 </html>
